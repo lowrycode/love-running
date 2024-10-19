@@ -86,8 +86,7 @@ nav {
 
 /* Main Content */
 main {
-    background-color: lightblue;
-    /* Make main element take any surplus state */
+    /* Make main element take any surplus space */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -144,6 +143,23 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Make circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
